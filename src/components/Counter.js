@@ -21,12 +21,12 @@ class Counter extends Component {
             <p>
                 Clicked: {this.props.count} times
                 <button onClick={/* Fill me in */
-                    ()=>{this.props.increment()}
+                    ()=>{this.props.increment(1)}
                 }>
                     {/* console.log("clicked +1") */}
                     +
                 </button>
-                <button onClick={() => {this.props.decrement(-10)}}>
+                <button onClick={() => {this.props.decrement(10)}}>
                     -
                 </button>
                  {/* Uncomment these button tags if you got
